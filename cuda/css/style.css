@@ -1,0 +1,555 @@
+*{
+margin:0;
+padding:0;	
+}
+/*css header*/
+header{
+	background:#87509c;
+}
+
+.header_top{
+	padding:0 20px;
+}
+/*fix padding*/
+.header_top .img_logo{
+	margin:56px 0px 0px 42px;
+}
+.header_top_nav{
+	padding-left:10px;
+}
+.header_top .header_top_ul{
+	margin-top:58px;
+	margin-right:25px;
+}
+.header_top_logo{
+	padding-right:0px;
+}
+.header_top  .nav-item1{
+	text-transform:uppercase;
+	margin-left:18px;
+}
+.header_top .nav-link1:link, .header_top .nav-link1:visited{
+	color:white;
+	padding:6px 17px 4px 17px;
+}
+.header_top .nav-link1:hover, .header_top .nav-link1:active{
+	background:#7a3894;
+	border-radius:5px;	
+	/*hover nav top*/
+}
+/*css header_top*/
+.header_bottom{
+	padding:0 0 145px 5px;
+}
+.header_bottom{
+text-align:center;	
+}
+.header_bottom p{
+	font:700 42.16px Titillium web;
+	color:white;
+	margin:145px 0 54px 0;
+}
+.header_bottom .button{
+	background-color: #de8e51;
+	padding:28px 82px;
+	border: none;
+	color: white;
+	text-decoration: none;
+	box-shadow:0 -4px #975829 inset;
+	/*css button top*/
+}
+/*css header_bottom*/
+/*end css header*/
+.fix_padding{
+	padding:0 5px;
+	/*fix padding 20px*/
+}
+/*strat section_boss1*/
+.section_boss1{
+background:#17c2a4;		
+}
+.section_top{
+text-align:center;
+padding-top:120px;
+}
+.section_top p:first-child{
+color:white;
+font:700 40px Titillium web;
+}
+.section_top p:nth-child(3){
+font:400 18px Titillium web;
+color:white;	
+margin-bottom:50px;
+box-sizing:border-box;
+padding:24px 259px 79px 259px;
+}
+.hr1{
+	border-top:4px solid #97999a;
+width:87px;
+margin:0 auto;
+margin-top:22px;	
+/*đường line*/
+}
+.section_bottom{
+	text-align:center;
+	padding:0 5px 118px 5px;
+	
+}
+.section_bottom p:nth-child(2){
+margin-top:60px;
+color:white;
+font:700 24px Titillium web;
+text-transform:uppercase;
+}
+.section_bottom p:nth-child(3){
+color:white;
+font:300 16px Titillium web;	
+box-sizing:border-box;
+padding:0 30px;
+}
+/*end section_boss1*/
+/*start section_boss2*/
+.section_boss2{
+text-align:center;	
+background:#e7f1f8;
+padding-top:120px;
+padding-bottom:127px;
+}
+.section_top2 p:first-child{
+	font:bold 41.29px  Titillium web;
+}
+.hr2{
+border-top:4px solid #c8d9e5;
+width:87px;
+margin:0 auto;
+margin-top:22px;
+margin-bottom:25px;
+/*đường line 2*/
+}
+.section_top2 p:nth-child(3){
+	font:400 18.58px Titillium web;
+	margin-bottom:78px;
+}
+.section_bottom2{
+	text-align:center;
+}
+.section_bottom2 .circle{
+	width:200px;
+	height:200px;
+	background:#878787;
+	border-radius:50%;
+	margin:0 auto;
+	/*circle*/
+}
+.section_bottom2 h4{
+	margin:41px 0px 7px 0px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.section_bottom2 a:link{
+	font:400 16px Titillium web;
+}
+.section_bottom2 p:nth-child(4){
+font:300 16px Titillium web;
+box-sizing:border-box;
+padding:0 30px;
+margin-top:26px;
+margin-bottom:31px;
+}
+
+/*end section_boss2*/
+/*start section_boss3*/
+.section_boss3{
+	padding-top:117px;
+	text-align:center;
+}
+.section_top3 h1{
+	font-weight:bold;
+}
+.hr3{
+border-top:4px solid #c8d9e5;
+width:87px;
+margin:0 auto;
+margin-top:21px;
+margin-bottom:24px;
+/*đường line 3*/
+}
+.section_top3 p:nth-child(3){
+	font:400 18px Titillium web;
+	box-shadow:border-box;
+	padding:0px 266px 0 242px;
+	margin-bottom:84px;
+}
+.section_bottom3 p{
+	font:700 24px Titillium web;
+	margin:32px 0 123px 0;
+}
+/*strat css progess bar circle*/
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #dfe8ed;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 24px;
+    color: black;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress .progress-value2{
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 24px;
+    color: black
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress .progress-value3{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 24px;
+    color: black
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress .progress-value4{
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 24px;
+    color: bl
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #15c7a8;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-4 0.9s linear forwards 1.8s;
+}
+.progress.tomato .progress-bar{
+    border-color: #eb7d4b;
+}
+.progress.tomato .progress-left .progress-bar{
+    animation: loading-5 1s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(70deg);
+        transform: rotate(70deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+/*progess bar circle*/
+/*end section boss3*/
+/*portfolio start*/
+.portfolio{
+	text-align:center;
+	padding:90px 0px 90px;
+	background-color:#ffdd99;
+	color:#393939;
+}
+.col-sm-6{
+	padding:0px 10px;
+}
+.portfolio .nav-pills{
+	margin:0 auto 40px;
+}
+.portfolio .nav-link{
+	padding:5px 20px;
+	border-radius:5px;
+	text-transform:uppercase;
+	background-color:#e5c37f;
+	color:#393939;
+	margin:0 5px 0;
+}
+.portfolio .nav-link.active, .nav-pills .show > .nav-link{
+	color:#393939;
+	background-color:#fff;
+}
+.p11{
+	text-transform:uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:400;
+	font-size:18pt;
+	margin:20px 0 40px;
+}
+.btn-info{
+	padding:14px 27px;
+	border-radius:5px;
+	text-transform:uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:500;
+	font-size:18pt;
+}
+/*portfolio end*/
+/*testimonials start*/
+.testimonials{
+	text-align:center;
+	padding:90px 0px 70px;
+	background-color:#d74680;
+	color:#fff;
+}
+.testimonials .avatar{
+	width:98px;
+	height:98px;
+	background-color:#787878;
+	border-radius:50%;
+	margin-top:5px;
+}
+.p12{
+	font-family: 'Titillium Web', sans-serif;
+	font-style:italic;
+	font-weight:300;
+	font-size:18pt;
+	margin-bottom:10px;
+}
+.testimonials .col-sm-3{
+	padding:0px;
+}
+.testimonials .col-sm-9{
+	text-align:left;
+	padding:0px 15px 0px 0px;
+}
+.p13{
+	text-transform:uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:600;
+	font-size:24pt;
+	margin-bottom:0px;
+}
+.p14{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:400;
+	font-size:18pt;
+	color:#ffcc99;
+	margin-bottom:50px;
+}
+/*testimonials end*/
+/*contact start*/
+.contact{
+	text-align:center;
+	background-color:#3c5499;
+	color:#fff;
+	padding:90px 0 90px;	
+}
+.contact .row{
+	margin:0;
+}
+.contact .col-sm-12{
+	padding:0 155px;
+}
+.contact .col-sm-6:first-child{
+	padding-right:15px;
+}
+.contact .col-sm-6:last-child{
+	padding-left:15px;
+}
+.input-group{
+	margin-top:20px;
+	padding:0px;
+}
+.input-group-prepend{
+	border-radius:3px 0 0 3px;
+	background-color:#273a71;
+}
+label{
+	margin:9px 0 0 25px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:500;
+	font-size:16pt;
+}
+input[type=text]{
+	padding:14px;
+	background-color:#273a71;
+	border:none;
+	color:#fff;
+}
+.input-group-prepend span{
+	color:red;
+}
+.input-group:hover	 label{
+	display:none;
+}
+.textarea{
+	background-color:#273a71;
+	border:none;
+	color:#fff;
+}
+input[type=submit]{
+	text-transform:uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:500;
+	font-size:18pt;
+	border:none;
+	color:#fff;
+	background-color:#30bae7;
+	padding:17px 65px;
+	border-radius:5px;
+	cursor:pointer;
+}
+input[type=submit]:hover{
+	color:#30bae7;
+	background-color:#fff;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	background-color:#344b8e;
+}
+footer .nav-link{
+	color:#fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:500;
+	font-size:24pt;
+	padding:0px;
+	margin:32px 27px;
+}
+footer .nav-link:hover{
+	color:#31a1d2;
+}
+.dos2{
+	position: relative;
+	bottom: 400px;
+}
+/*footer end*/
+.container{
+	margin:0 auto;
+	padding:0px;
+	width:1140px;
+}
+.container-pd20{
+	padding:0 20px;
+	width:1140px;
+	margin:0 auto;
+}
